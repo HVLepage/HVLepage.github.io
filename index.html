@@ -1,46 +1,145 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Hugo V. Lepage</title>
-		<meta name="description" content="A tutorial on how to recreate the effect of YouTube's little left side menu. The idea is to slide a little menu icon to the right side while revealing some menu item list beneath. " />
-		<meta name="keywords" content="Add keywords" />
-		<meta name="author" content="_yourName_ for Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico"> 
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
+		<title>Astral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
-		<div class="container">	
-			<!-- Codrops top bar -->
-			<div class="codrops-top clearfix">
-				<a href="http://tympanus.net/Development/FullscreenLayoutPageTransitions/"><strong>&laquo; Previous Demo: Fullscreen Layout with Page Transitions</strong></a>
-				<span class="right"><a href="http://tympanus.net/codrops/?p=14806"><strong>Back to the Codrops Article</strong></a></span>
-			</div><!--/ Codrops top bar -->
-			<header class="clearfix">
-				<h1>Hugo V. Lepage<span>A simple drop-down menu as seen on YouTube</span></h1>	
-			</header>
-			<div class="main">
-				<p>This menu is inspired by the left side menu found on YouTube. When clicking on the menu label and icon, the main menu appears beneath and the menu icon slides to the right side while the label slides up. To close the menu, the menu icon needs to be clicked again.</p>
-				<div class="side">
-					<nav class="dr-menu">
-						<div class="dr-trigger"><span class="dr-icon dr-icon-menu"></span><a class="dr-label">Account</a></div>
-						<ul>
-							<li><a class="dr-icon dr-icon-user" href="#">Jason Quinn</a></li>
-							<li><a class="dr-icon dr-icon-camera" href="#">Videos</a></li>
-							<li><a class="dr-icon dr-icon-heart" href="#">Favorites</a></li>
-							<li><a class="dr-icon dr-icon-bullhorn" href="#">Subscriptions</a></li>
-							<li><a class="dr-icon dr-icon-download" href="#">Downloads</a></li>
-							<li><a class="dr-icon dr-icon-settings" href="#">Settings</a></li>
-							<li><a class="dr-icon dr-icon-switch" href="#">Logout</a></li>
-						</ul>
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#me" class="icon fa-home active"><span>Home</span></a>
+						<a href="#work" class="icon fa-folder"><span>Work</span></a>
+						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+						<a href="#" class="icon fa-twitter"><span>Twitter</span></a>
 					</nav>
-				</div>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="me" class="panel">
+								<header>
+									<h1>Jane Doe</h1>
+									<p>Senior Astral Projectionist</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Work</h2>
+								</header>
+								<p>
+									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
+									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+									luctus elit eget interdum.
+								</p>
+								<section>
+									<div class="row">
+										<div class="4u 12u$(mobile)">
+											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+										</div>
+										<div class="4u$ 12u$(mobile)">
+											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
+										</div>
+										<div class="4u$ 12u$(mobile)">
+											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
+										</div>
+										<div class="4u$ 12u$(mobile)">
+											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
+										</div>
+										<div class="4u$ 12u$(mobile)">
+											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+										</div>
+									</div>
+								</section>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="6u 12u$(mobile)">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="6u$ 12u$(mobile)">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="12u$">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="12u$">
+												<textarea name="message" placeholder="Message" rows="8"></textarea>
+											</div>
+											<div class="12u$">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
 			</div>
-		</div><!-- /container -->
-		<script src="js/ytmenu.js"></script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
