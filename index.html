@@ -18,6 +18,25 @@ p.small {
     line-height: 1.0;
 }
 
+.btn {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: DodgerBlue;
+    color: DodgerBlue;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+ .btn:hover {
+    background-color: white;
+    /* color: white; */
+} 
+.alignright {
+	float: right;
+}
+
 </style>
 
 	<head>
@@ -76,7 +95,7 @@ p.small {
 
 							<article id="cv" class="panel">
 								<header>
-									<h2>Curriculum Vitae</h2>
+									<h2>Curriculum Vitae <p class="alignright"><button onclick="location.href='./LEPAGE_cv_A4.pdf'" class="btn"><i class="fa fa-download"></i> Download</button> </p></h2>
 								</header>
 								<section>
 									 <h6><a class="icon fa-graduation-cap"><span> &nbsp; Education</span></a></h6>
