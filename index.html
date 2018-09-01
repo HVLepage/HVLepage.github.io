@@ -65,6 +65,15 @@ p.small {
 		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#ffffff">
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript">var submitted=false;</script>
+		<script type="text/javascript">
+		$('#gform').on('submit', function(e) {
+		  $('#gform *').fadeOut(2000);
+		  $('#gform').prepend('Your submission has been processed...');
+		  });
+		</script>
 	</head>
 	<body>
 
@@ -341,41 +350,21 @@ p.small {
 									<h2>Contact me</h2>
 								</header>
 
-<?php
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
-    $from = 'From: TangledDemo'; 
-    $to = 'hugo.lepage@gmail.com'; 
-			
-    $body = "From: $name\n E-Mail: $email\n Message:\n $message";
-				
-    if ($_POST['submit']) {				 
-        if (mail ($to, $subject, $body, $from)) { 
-	    echo '<p>Your message has been sent!</p>';
-	} else { 
-	    echo '<p>Something went wrong, go back and try again!</p>'; 
-	} 
-    } else if ($_POST['submit'] && $human != '4') {
-	echo '<p>You answered the anti-spam question incorrectly!</p>';
-    }
-?>
 
-								<form action="index.html" method="post">
+								<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScT2dn28c-eQOgn1lRfsSkFSPw-Qsq45hf8129OOITvCEpAyg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 									<div>
 										<div class="row">
 											<div class="6u 12u$(mobile)">
-												<input type="text" name="name" placeholder="Name" />
+												<input type="text" name="entry.2005620554" id="entry.2005620554" placeholder="Name" />
 											</div>
 											<div class="6u$ 12u$(mobile)">
-												<input type="email" name="email" placeholder="Email" />
+												<input type="email" name="entry.1045781291" id="entry.1045781291" placeholder="Email" />
 											</div>
 											<div class="12u$">
 												<input type="text" name="subject" placeholder="Subject" />
 											</div>
 											<div class="12u$">
-												<textarea name="message" placeholder="Message" rows="8"></textarea>
+												<textarea name="entry.839337160" id="entry.839337160" placeholder="Message" rows="8"></textarea>
 											</div>
 											<div class="12u$">
 												<input type="submit" value="Send Message" />
@@ -383,6 +372,7 @@ p.small {
 										</div>
 									</div>
 								</form>
+								<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 							</article>
 
 					</div>
