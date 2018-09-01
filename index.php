@@ -362,7 +362,7 @@ p.small {
     }
 ?>
 
-								<form action="index.html" method="post">
+								<form action="index.php" method="post">
 									<div>
 										<div class="row">
 											<div class="6u 12u$(mobile)">
