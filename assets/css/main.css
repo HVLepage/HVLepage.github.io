@@ -770,6 +770,9 @@
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #777777;
+		-moz-border-radius:5px;
+	    -webkit-border-radius:5px;
+	    border-radius:5px;
 	}
 
 	strong, b, h1, h2, h3, h4, h5 {
