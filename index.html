@@ -356,7 +356,7 @@ p.small {
 												<input type="email" name="entry.1045781291" id="entry.1045781291" placeholder="Email" required/>
 											</div>
 											<div class="12u$">
-												<textarea name="entry.839337160" id="entry.839337160" placeholder="Message" rows="8" required></textarea>
+												<textarea name="entry.839337160" id="entry.839337160" placeholder="Message" rows="8" resize="vertical" required></textarea>
 											</div>
 											<div class="12u$">
 												<input type="submit" value="Send Message" />
@@ -368,7 +368,7 @@ p.small {
 								<script type="text/javascript">var submitted=false;</script>
 								<script type="text/javascript">
 								$('#gform').on('submit', function(e) {
-								  $('#gform *').fadeOut(200);
+								  $('#gform *').fadeOut(20);
 								  $('#gform').prepend('Your message has been sent...');
 								  });
 								</script>
