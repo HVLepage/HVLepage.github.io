@@ -353,10 +353,7 @@ p.small {
 												<input type="text" name="entry.2005620554" id="entry.2005620554" placeholder="Name" />
 											</div>
 											<div class="6u$ 12u$(mobile)">
-												<input type="email" name="entry.1045781291" id="entry.1045781291" placeholder="Email" />
-											</div>
-											<div class="12u$">
-												<input type="text" name="subject" placeholder="Subject" />
+												<input type="email" name="entry.1045781291" id="entry.1045781291" placeholder="Email" required/>
 											</div>
 											<div class="12u$">
 												<textarea name="entry.839337160" id="entry.839337160" placeholder="Message" rows="8"></textarea>
@@ -368,49 +365,13 @@ p.small {
 									</div>
 								</form>
 								<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
-
-		<script type="text/javascript">var submitted=false;</script>
-		<script type="text/javascript">
-		$('#gform').on('submit', function(e) {
-		  $('#gform *').fadeOut(2000);
-		  $('#gform').prepend('Your submission has been processed...');
-		  });
-		</script>
-
-
-  <script>
-   $(document).ready(function() {
-$("#getMessage").on("click", function(){
-  // Only change code below this line.
-  $(".message").html("Here is the message");
-  // Only change code above this line.
-     });
-   });
- </script>
-
-
- <div class="container-fluid">
-   <div class = "row text-center">
-     <h2>Cat Photo Finder</h2>
-   </div>
-   <div class = "row text-center">
-     <div class = "col-xs-12 well message">
-       The message will go here
-     </div>
-   </div>
-   <div class = "row text-center">
-     <div class = "col-xs-12">
-       <button id = "getMessage" class = "btn btn-primary">
-         Get Message
-       </button>
-     </div>
-   </div>
- </div>
-
-
-
-
+								<script type="text/javascript">var submitted=false;</script>
+								<script type="text/javascript">
+								$('#gform').on('submit', function(e) {
+								  $('#gform *').fadeOut(200);
+								  $('#gform').prepend('Your message has been sent...');
+								  });
+								</script>
 							</article>
 
 					</div>
