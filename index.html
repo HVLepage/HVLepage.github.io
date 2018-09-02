@@ -65,6 +65,9 @@ p.small {
 		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#ffffff">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 	</head>
 	<body>
 
@@ -340,8 +343,7 @@ p.small {
 								<header>
 									<h2>Contact me</h2>
 								</header>
-								
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
 		<script type="text/javascript">var submitted=false;</script>
 		<script type="text/javascript">
 		$('#gform').on('submit', function(e) {
@@ -372,6 +374,40 @@ p.small {
 									</div>
 								</form>
 								<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+
+  <script>
+   $(document).ready(function() {
+$("#getMessage").on("click", function(){
+  // Only change code below this line.
+  $(".message").html("Here is the message");
+  // Only change code above this line.
+     });
+   });
+ </script>
+
+
+ <div class="container-fluid">
+   <div class = "row text-center">
+     <h2>Cat Photo Finder</h2>
+   </div>
+   <div class = "row text-center">
+     <div class = "col-xs-12 well message">
+       The message will go here
+     </div>
+   </div>
+   <div class = "row text-center">
+     <div class = "col-xs-12">
+       <button id = "getMessage" class = "btn btn-primary">
+         Get Message
+       </button>
+     </div>
+   </div>
+ </div>
+
+
+
+								
 							</article>
 
 					</div>
