@@ -4,4 +4,4 @@
 [Boat cruise](articles/boat.md)
 [Royal palace](articles/royalpalace.md)
 
-[gimmick:Disqus](testetst-1)
+[gimmick:Disqus](markdowniowiki)
