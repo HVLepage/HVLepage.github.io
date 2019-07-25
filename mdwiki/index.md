@@ -56,17 +56,11 @@ Key features that make the Mavic 2 Pro a preferred choice for this project:
 
 #### DroneDeploy
 DroneDeploy offer a professional photogrammetry platform for collecting and analysing geographic data using drones. For this project, we are interested in their free flight app for mobile devices. This app allows the automation of flight plans and photography. Gathering land data in a controlled and systematic way is essential for scientific analysis. The image below shows an example plan defined by an operator. The drone automatically covers the region of interest by following the green flight path and takes a number of pictures at an interval defined by the user.
-
-
-<img src="https://www.dropbox.com/s/fsni6hwk3y6d1dr/dronedeploy_examplemap.png?raw=1" alt="DroneDeploy" height="200">
-
+![DroneDeploy](https://www.dropbox.com/s/fsni6hwk3y6d1dr/dronedeploy_examplemap.png?raw=1)
 
 #### Pix4D
 Pix4D is an anternative to DroneDeploy. Using their mobile app, it is possible to program and schedule precise flight paths and data collection tasks.
 
-<p align="center">
-<img src="https://github.com/HVLepage/GIS/blob/master/images/pix4d_examplemap.png" alt="Pix4D" height="250">
-</p>
 
 ### OpenDroneMap
 OpenDroneMap (ODM) is a free and open-source photogrammetry toolkit for processing aerial images collected from a drone or satellite. It can be used on Windows, MacOS and Linux. For a more user-friendly GUI version of the toolkit use WebODM.
@@ -81,10 +75,9 @@ Satellites both public and private are constantly monitoring the surface of the 
 
 ### Landsat
 The Landsat program is the longest-running enterprise for acquisition of satellite imagery of Earth. The program has been operated by NASA, NOAA and USGS. Currently, the two active programmes are Landsat 7 and Landsat 8. Both are capable of collecting multi-spectral data split into differnt bands.
+![Landsat 8](https://www.dropbox.com/s/aupmz2zjzb7wrcj/Landsat_Data_Continuity_Mission_Observatory_testing.jpg?raw=1)
 
-<p align="center">
-<img src="https://github.com/HVLepage/GIS/blob/master/images/Landsat_Data_Continuity_Mission_Observatory_testing.jpg" alt="Landsat 8" height="350">
-</p>
+
 
 
 #### Landsat 7 Enhanced Thematic Mapper Plus (ETM+)
@@ -117,10 +110,7 @@ The Landsat program is the longest-running enterprise for acquisition of satelli
 | Band 11 - Thermal 2	| 11.50 - 12.51	| 100* (30) |
 * TIRS bands are acquired at 100 meter resolution, but are resampled to 30 meter in delivered data product.
 
-
-<p align="center">
-<img src="https://github.com/HVLepage/GIS/blob/master/images/MSS-thru-L9-wavelengths.jpg" alt="Landsat Spectral Bands" height="300">
-</p>
+![Landsat Spectral Bands](https://www.dropbox.com/s/8mwj6da2i4teaam/MSS-thru-L9-wavelengths.jpg?raw=1)
 
 
 ### Google Earth Engine
@@ -130,10 +120,7 @@ The public data archive includes more than thirty years of historical imagery an
 
 It is a fast and useful tool to process and analyse large quantities of multispectral images of the Earth. An example setup for the online code editor can be seen in the firgure below.
 
-<p align="center">
-<img src="https://github.com/HVLepage/GIS/blob/master/images/GEE_IDE.png" alt="GEE IDE" height="450">
-</p>
-
+![GEE IDE](https://www.dropbox.com/s/bs74vwbwihe48s1/GEE_IDE.png?raw=1)
 
 ## Data Analysis
 
@@ -141,14 +128,13 @@ It is a fast and useful tool to process and analyse large quantities of multispe
 Normalized difference vegetation index (NDVI) is a technique that quantifies vegetation by measuring the difference between near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs). It is a simple tool that is particularly useful for remote sensing application as it provides a quick measure of whether the target being observed contains live green vegetation or not.
 
 <p align="center">
-<img src="https://github.com/HVLepage/GIS/blob/master/images/386576main_ndvi_example.jpg" alt="NDVI Example">
+<img src="https://www.dropbox.com/s/om088o25email0c/386576main_ndvi_example.jpg?raw=1" alt="NDVI Example" >
 </p>
 
 Below is an example map of the area around Moquegua, Peru. Here, dark green areas indicate regions where green plant density is high compared to lighter green areas. Orange colored regions are devoid of vegetation.
 
-<p align="center">
-<img src="https://github.com/HVLepage/GIS/blob/master/images/ndvi_moquegua_2018.png" alt="Moquegua NDVI Map">
-</p>
+![Moquegua NDVI Map](https://www.dropbox.com/s/kb1bkomu48y0u12/ndvi_moquegua_2018.png?raw=1)
+
 
 ## Authors
 
