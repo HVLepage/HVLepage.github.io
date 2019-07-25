@@ -159,7 +159,4 @@ See the list of [contributors](https://github.com/HVLepage/GIS/contributors) who
 
 
 
-[gimmick:Disqus](testetst-1)
-
-
-asfds
+[gimmick:Disqus](enironmental-monitoring-peru)
