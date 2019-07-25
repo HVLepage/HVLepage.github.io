@@ -4,26 +4,6 @@ Warning: This site is currently under construction.
 
 A geographic information system (GIS) is a framework for gathering, managing, and analyzing data. Rooted in the science of geography, GIS integrates many types of data. It analyzes spatial location and organizes layers of information into visualizations using maps and 3D scenes. With this unique capability, GIS reveals deeper insights into data, such as patterns, relationships, and situations—helping users make smarter decisions.
 
-## Table of Contents
-1. [About](#about)
-2. [Drone Mapping](#drone-mapping)
-   1. [Drones](#drones)
-   2. [Data Collection](#data-collection)
-      1. [DroneDeploy](#dronedeploy)
-      2. [Pix4D](#pix4d)
-   3. [OpenDroneMap](#opendronemap)
-   4. [Presentation](#presentation)
-      1. [Blender](#blender)
-      2. [GeoTIF](#geotif)
-3. [Satellite Mapping](#satellite-mapping)
-   1. [Landsat](#landsat)
-   2. [Google Earth Engine](#google-earth-engine)
-4. [Data Analysis](#data-analysis)
-   1. [NDVI](#ndvi)
-5. [Authors](#authors)
-6. [License](#license)
-7. [Acknowledgments](#acknowledgments)
-
 ## About
 In this project, we use various GIS tools to analyze vegetation characteristics in the Moquegua, Cañete, and Barranca regions of Peru. Three levels of data collection are used:
 1. Field expiditions and plant sampling.
@@ -67,7 +47,6 @@ Key features that make the Mavic 2 Pro a preferred choice for this project:
 #### DroneDeploy
 DroneDeploy offer a professional photogrammetry platform for collecting and analysing geographic data using drones. For this project, we are interested in their free flight app for mobile devices. This app allows the automation of flight plans and photography. Gathering land data in a controlled and systematic way is essential for scientific analysis. The image below shows an example plan defined by an operator. The drone automatically covers the region of interest by following the green flight path and takes a number of pictures at an interval defined by the user.
 ![DroneDeploy](https://www.dropbox.com/s/fsni6hwk3y6d1dr/dronedeploy_examplemap.png?raw=1)
-
 #### Pix4D
 Pix4D is an anternative to DroneDeploy. Using their mobile app, it is possible to program and schedule precise flight paths and data collection tasks.
 
