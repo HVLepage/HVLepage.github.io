@@ -38,7 +38,7 @@ The DJI Mavic 2 Pro edition is currently the most powerful drone available on th
 The Mavic 2 Pro utilises a three-axis gimbal with Hasselblad camera and 1-inch CMOS sensor and F\2.8 to F\11 EQV 28mm lens, capable of capturing 4K UHD video and 20MP images. Perfectly designed for sunlight and sunset hours, giving the best results in the most challenging conditions. It is packed with advanced sensors and algorithms that assist piloting and allow flight plans to be programmed to the drone directly.
 
 <p align="center">
-<img src="https://github.com/HVLepage/GIS/blob/master/images/HM9Q2_AV7.jpeg" alt="Mavic 2 Pro" >
+<img src="https://www.dropbox.com/s/76hbz1itfmw4ika/HM9Q2_AV7.jpeg?raw=1" alt="Mavic 2 Pro" >
 </p>
 
 Key features that make the Mavic 2 Pro a preferred choice for this project:
@@ -57,9 +57,9 @@ Key features that make the Mavic 2 Pro a preferred choice for this project:
 #### DroneDeploy
 DroneDeploy offer a professional photogrammetry platform for collecting and analysing geographic data using drones. For this project, we are interested in their free flight app for mobile devices. This app allows the automation of flight plans and photography. Gathering land data in a controlled and systematic way is essential for scientific analysis. The image below shows an example plan defined by an operator. The drone automatically covers the region of interest by following the green flight path and takes a number of pictures at an interval defined by the user.
 
-<p align="center">
-<img src="https://github.com/HVLepage/GIS/blob/master/images/dronedeploy_examplemap.png" alt="DroneDeploy" height="400">
-</p>
+
+<img src="https://www.dropbox.com/s/fsni6hwk3y6d1dr/dronedeploy_examplemap.png?raw=1" alt="DroneDeploy" height="200">
+
 
 #### Pix4D
 Pix4D is an anternative to DroneDeploy. Using their mobile app, it is possible to program and schedule precise flight paths and data collection tasks.
@@ -160,3 +160,6 @@ See the list of [contributors](https://github.com/HVLepage/GIS/contributors) who
 ## License
 
 ## Acknowledgments
+
+
+[gimmick:Disqus](enironmental-monitoring-peru)
