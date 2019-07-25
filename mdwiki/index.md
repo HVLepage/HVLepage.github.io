@@ -32,6 +32,13 @@ In this project, we use various GIS tools to analyze vegetation characteristics 
 
 Together, these three levels of data gathering provide large-scale information about the types and quality of vegetation across vast areas that would otherwise be inaccessible. Field expeditions allow us to set a benchmark and validate the spectral analysis from geographic images. An on-site researcher samples the types of plants present in a region and notes the overall health of vegetation. The drone then flies over the same region to expand the area of verified data. Mid-scale data collected from the drone is compared to landsat spectral bands that cover arbitrarily large surfaces. Vegetation type and health can be extrapolated to large areas of Peru with a similar climate to those visited in field expeditions.
 
+
+## Observation Sites
+Below is an interactive Google Map with labeled observation sites.
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1-1VdqisZplWUOteHIZ0yapDF2Kaprlx1" frameborder="0" allowfullscreen style="width:100%;height:480px;"></iframe>
+
+
 ## Drone Mapping
 Using drone technologies, it is possible to cover larger areas in regions of interest and efficiently catalog vegetation type and health.
 
@@ -137,12 +144,6 @@ Normalized difference vegetation index (NDVI) is a technique that quantifies veg
 Below is an example map of the area around Moquegua, Peru. Here, dark green areas indicate regions where green plant density is high compared to lighter green areas. Orange colored regions are devoid of vegetation.
 
 ![Moquegua NDVI Map](https://www.dropbox.com/s/kb1bkomu48y0u12/ndvi_moquegua_2018.png?raw=1)
-
-
-## Observation Sites
-Below is an interactive Google Map with labeled observation sites.
-
-<iframe src="https://www.google.com/maps/d/embed?mid=1-1VdqisZplWUOteHIZ0yapDF2Kaprlx1" frameborder="0" allowfullscreen style="width:100%;height:480px;"></iframe>
 
 
 ## Authors
