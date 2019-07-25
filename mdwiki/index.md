@@ -36,7 +36,7 @@ Together, these three levels of data gathering provide large-scale information a
 ## Observation Sites
 Below is an interactive Google Map with labeled observation sites.
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1-1VdqisZplWUOteHIZ0yapDF2Kaprlx1" frameborder="0" allowfullscreen style="width:100%;height:480px;"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1-1VdqisZplWUOteHIZ0yapDF2Kaprlx1" frameborder="0" allowfullscreen style="width:100%;height:640px;"></iframe>
 
 
 ## Drone Mapping
