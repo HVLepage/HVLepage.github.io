@@ -139,6 +139,12 @@ Below is an example map of the area around Moquegua, Peru. Here, dark green area
 ![Moquegua NDVI Map](https://www.dropbox.com/s/kb1bkomu48y0u12/ndvi_moquegua_2018.png?raw=1)
 
 
+## Observation Sites
+Below is an interactive Google Map with labeled observation sites.
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1-1VdqisZplWUOteHIZ0yapDF2Kaprlx1" frameborder="0" allowfullscreen style="width:100%;height:480px;"></iframe>
+
+
 ## Authors
 
 * **H. V. Lepage**
