@@ -157,6 +157,8 @@ See the list of [contributors](https://github.com/HVLepage/GIS/contributors) who
 
 ## Acknowledgments
 
+---
 
+## Discussion
 
 [gimmick:Disqus](enironmental-monitoring-peru)
