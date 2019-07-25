@@ -1,4 +1,4 @@
-# Geographic Information System
+# Environmental Analysis of River Water in Peru
 
 Warning: This site is currently under construction.
 
