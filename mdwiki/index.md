@@ -138,6 +138,6 @@ See the list of [contributors](https://github.com/HVLepage/GIS/contributors) who
 
 ---
 
-## Discussion
+## Public Discussion
 
 [gimmick:Disqus](enironmental-monitoring-peru)
