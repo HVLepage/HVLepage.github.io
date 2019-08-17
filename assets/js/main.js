@@ -121,14 +121,15 @@
 				$('[data-fancybox="iframe"]').fancybox({
 					iframe : {
 							css : {
-									width : '600px',
-									height : '600px',
+								width : '80%',
+								height : '80%'
 							}
 					},
 					toolbar: false,
 					infobar: false,
 					keyboard: false,
-					arrows: false
+					arrows: false,
+					padding : 0,
 				});
 
 				$('[data-fancybox="video"]').fancybox({
