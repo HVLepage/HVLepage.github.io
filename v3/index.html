@@ -42,13 +42,13 @@ Send me a message if you want to discuss science, physics or the world.</p>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>Sopwith Camel</h3>
+								<p>3D model of WW1 plane using WebODM.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>CAMEA</h3>
+								<p>Open data platform for water and environmental analysis in Peru.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
@@ -79,35 +79,40 @@ Send me a message if you want to discuss science, physics or the world.</p>
 				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<!--- <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p> --->
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form method="post" action="#">
+								<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScT2dn28c-eQOgn1lRfsSkFSPw-Qsq45hf8129OOITvCEpAyg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+										<div class="col-6 col-12-xsmall"><input type="text" name="entry.2005620554" id="entry.2005620554" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="entry.1045781291" id="entry.1045781291" placeholder="Email" required/></div>
+										<div class="col-12"><textarea name="entry.839337160" id="entry.839337160" placeholder="Message"required></textarea></div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+										</ul>
 									</div>
 								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
+								<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+								<script type="text/javascript">var submitted=false;</script>
+								<script type="text/javascript">
+								$('#gform').on('submit', function(e) {
+									$('#gform *').fadeOut(20);
+									$('#gform').prepend('Your message has been sent...');
+									});
+								</script>
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
 									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										1234 Somewhere Rd.<br />
-										Nashville, TN 00000<br />
-										United States
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										000-000-0000
+										<h3 class="icon solid fa-map-marker"><span class="label">Address</span></h3>
+										Cavendish Laboratory<br />
+										19 JJ Thomson Avenue<br />
+										Cambridge CB3 0HE<br />
+										United Kingdom
 									</li>
 									<li>
 										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="#">hello@untitled.tld</a>
+										<a href="mailto:hl407@cam.ac.uk">hl407@cam.ac.uk</a>
 									</li>
 								</ul>
 							</div>
