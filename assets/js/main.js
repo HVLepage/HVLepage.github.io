@@ -125,22 +125,18 @@
 									height : '600px',
 							}
 					},
-					toolbar: false
+					toolbar: false,
+					infobar: false,
+					keyboard: false,
+					arrows: false
 				});
 
 				$('[data-fancybox="video"]').fancybox({
-					toolbar: false
-				});
-
-
-				$().fancybox({
-				    selector : '.imglist a:visible',
-						openEffect  : "fade",
-						closeEffect : "fade",
-						type : "image",
-						infobar: false,
-						toolbar: false,
-						animationEffect: "fade",
+					toolbar: false,
+					toolbar: false,
+					infobar: false,
+					keyboard: false,
+					arrows: false
 				});
 
 			});
