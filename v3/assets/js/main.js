@@ -93,7 +93,7 @@
 
 			}
 
-	// Main Sections: Two.
+	// Main Sections: poptrox.
 
 		// Lightbox gallery.
 			$window.on('load', function() {
@@ -113,5 +113,37 @@
 				});
 
 			});
+
+
+			// Fancybox3
+			$window.on('load', function() {
+
+				$('[data-fancybox="iframe"]').fancybox({
+					iframe : {
+							css : {
+									width : '600px',
+									height : '600px',
+							}
+					},
+					toolbar: false
+				});
+
+				$('[data-fancybox="video"]').fancybox({
+					toolbar: false
+				});
+
+
+				$().fancybox({
+				    selector : '.imglist a:visible',
+						openEffect  : "fade",
+						closeEffect : "fade",
+						type : "image",
+						infobar: false,
+						toolbar: false,
+						animationEffect: "fade",
+				});
+
+			});
+
 
 })(jQuery);
